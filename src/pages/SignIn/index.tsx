@@ -80,10 +80,10 @@ const SignIn: React.FC = () => {
           //   description:
           //     'Ocorreu um erro ao fazer login, verifique email/senha informados',
           // });
-          Alert.alert([
+          Alert.alert(
             'Erro na autenticação',
             'Ocorreu um erro ao fazer login, verifique email/senha informados',
-          ]);
+          );
         }
       }
     },
